@@ -1,0 +1,182 @@
+body{
+    
+    font-family: "Poppins", sans-serif;
+}
+.outer
+{
+    height: auto;
+    width: 1000px;
+    //border:1px solid black;
+    margin:10px auto;
+}
+.heading
+{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #990033;
+    display: flex;
+}
+.heading img{
+    height:150px;
+    width:150px;
+    margin: 30px 30px;
+    
+}
+.heading h1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.heading h3{
+    color: white;
+    margin-top: -50px;
+    margin-left: 240px;
+    font-size: 20px;
+}
+.nav
+{
+    height: 50px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color:black;
+}
+.nav ul{
+    display: flex;
+    list-style-type:none;
+    padding: 0px;
+    margin: 12px;
+    justify-content: center;
+}
+.nav ul li{
+    font-size: 15px;
+}
+.nav ul li a 
+{
+    text-decoration:none;
+    color:white;
+    padding: 10px 26px;
+    border-right: 1px solid white;
+}
+.area
+{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.area h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+.area h4{
+    color: red;
+}
+.area p a{
+    color: blue;
+    font-weight: 700;
+    font-size: 17px;
+}
+.area marquee a
+{
+    color: blue;
+    font-weight: 600;
+    font-size: 17px;
+   // margin: -20px auto;
+}
+.btns
+{
+    height: 200px;
+    width: 100%;
+    
+}
+.btns button
+{
+    height:100px;
+    width:240px;
+    margin: 2px 2px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.cols
+{
+    height: 500px;
+    width: 100%;
+    //border: 1px solid black;
+    display: flex;
+}
+.col1
+{
+    height: 500px;
+    width: 30%;
+    border: 2px solid orange;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 18px;
+}
+.col1 h4
+{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #990033;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+.col1 ul {
+    margin-top: -20px;
+}
+.col1 ul li a
+{
+    font-weight: 400;
+    color: blue;
+    
+}
+.main
+{
+    height: auto;
+    width: 100%;
+}
+.part1{
+    border: 2px solid orange;
+}
+.part1 h3{
+    background-color: #990033;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 22px;
+}
+.part1 p{
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer
+{
+    height:250px;
+    width: 100%;
+    //border: 1px solid black;
+    display: flex;
+}
+.c
+{
+    height: 250px;
+    width:20%;
+    //border: 1px solid black;
+}
+.c h4{
+    text-align: center;
+    font-size: 20px;
+}
+.c p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0%;
+}
